@@ -1,3 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,500&display=swap');
+
 body{
-    background-color: black;
+    background-color: #f1f1f1;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.TitleDiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: large;
+    color: #2c2c2c;
+}
+
+
+.TitleDiv h1::after{
+    height: 3px;
+    content: '';
+    background-color: #ca9d17;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.Categories{
+  margin-bottom: 15px;
+}
+
+.Categories ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.Categories ul li{
+    list-style: none;
+    display: block;
+}
+
+.Categories ul li button {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ca9d17;
+  border-radius: .375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ca9d17;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  height: 2.5em;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.Categories ul li button:active {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+
+.Categories ul li button:focus {
+  border-color: #485fc7;
+  outline: 0;
+}
+
+.Categories ul li button:hover {
+  border-color: #b5b5b5;
+}
+
+.Categories ul li button:focus:not(:active) {
+  box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
+.items{
+  display: grid;
+  grid-template: 200px 200px/ auto auto;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.item{
+  grid-area: 100px;
+}
+.itemTitle{
+  display: flex;
+  justify-content: space-between;
 }
