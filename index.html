@@ -15,17 +15,24 @@
             <div class="Categories">
                 <ul>
                     <li>
-                        <button type="radio" name="todos">Todos</button>
-                        <button type="radio" name="todos">Café</button>
-                        <button type="radio" name="todos">Almoço</button>
-                        <button type="radio" name="todos">Shakes</button>
-                        <button type="radio" name="todos">Janta</button>
+                        <button onclick="filterItems(this)" class="filter" type="radio" name="todos">Todos</button>
+                        <button onclick="filterItems(this)" class="filter" type="radio" name="cafe">Café</button>
+                        <button onclick="filterItems(this)" class="filter" type="radio" name="almoco">Almoço</button>
+                        <button onclick="filterItems(this)" class="filter" type="radio" name="shake">Shakes</button>
+                        <button onclick="filterItems(this)" class="filter" type="radio" name="janta">Janta</button>
                     </li>
                 </ul>
             </div>
             <div class="items">
+                <script>
+                    window.addEventListener('load', function () {
+                                items.map((item) => {
+                                console.log(item)
+                            })
+                    })
+                </script>
                 <div class="item">
-                    <img class="imgproduct" src="/assets/teste.jpg" alt="">
+                    <img class="imgproduct" src="assets/teste.jpg" alt="">
                     <div class="itemHeader">
                             <div class="itemTitle">
                                 <h4>titulo</h4>
@@ -35,7 +42,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img class="imgproduct" src="/assets/teste.jpg" alt="">
+                        <img class="imgproduct" src="assets/teste.jpg" alt="">
                         <div class="itemHeader">
                                 <div class="itemTitle">
                                     <h4>titulo</h4>
@@ -45,7 +52,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img class="imgproduct" src="/assets/teste.jpg" alt="">
+                            <img class="imgproduct" src="assets/teste.jpg" alt="">
                             <div class="itemHeader">
                                     <div class="itemTitle">
                                         <h4>titulo</h4>
@@ -56,6 +63,6 @@
                             </div>
                 </div>
         </main>
-        <script src="script.js"></script>
+    <script src="script.js"></script>
     </body>
 </html>
