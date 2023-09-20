@@ -5,4 +5,9 @@ const items = [
     {tipo: 'Janta', nome: 'bife de Alcatra com saladas', preco: 40.00, descricao: 'Bife de alcatra frito em ervas finas com salada de espinafre', imagem: ''}
 ]
 
-console.log(items)
+
+
+
+function filterItems(){
+
+}
