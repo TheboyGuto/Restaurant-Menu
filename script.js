@@ -1,12 +1,12 @@
 const items = [
     {tipo: 'cafe', nome: 'panqueca com caramelo', preco: 15.99, descricao: 'Panqueca feita a mão coberta com caramelo', imagem: 'panqueca.jpg'},
-    {tipo: 'cafe', nome: 'bacon e ovos', preco: 12, descricao: 'Bacon frito e ovos', imagem: 'panqueca.jpg'},
+    {tipo: 'cafe', nome: 'bacon e ovos', preco: 12, descricao: 'Bacon frito e ovos', imagem: 'baconeovos.jpg'},
     {tipo: 'almoco', nome: 'Alaminuta', preco: 32.00, descricao: 'Arroz,Feijão,Ovo,batata frita e bife', imagem: 'alaminuta.jpg'},
-    {tipo: 'almoco', nome: 'bife á cavalo', preco: 26.7, descricao: 'bife e ovo acompanhados de arroz e feijão', imagem: 'panqueca.jpg'},
+    {tipo: 'almoco', nome: 'bife á cavalo', preco: 26.7, descricao: 'bife e ovo acompanhados de arroz e feijão', imagem: 'bifeacavalo.jpg'},
     {tipo: 'shake', nome: 'Shake de Baunilha', preco: 8, descricao: 'milkshake batido sabor baunilha', imagem: 'shake.jpg'},
-    {tipo: 'shake', nome: 'Shake de Chocolate', preco: 8, descricao: 'Milkshake batido sabor chocolate', imagem: 'panqueca.jpg'},
+    {tipo: 'shake', nome: 'Shake de Chocolate', preco: 8, descricao: 'Milkshake batido sabor chocolate', imagem: 'shakeC.jpg'},
     {tipo: 'janta', nome: 'bife de Alcatra com saladas', preco: 40.00, descricao: 'Bife de alcatra frito em ervas finas com salada de espinafre', imagem: 'bife.jpg'},
-    {tipo: 'janta', nome: 'Hamburguer de Cheddar', preco: 24.50, descricao: 'Hamburguer Delicioso', imagem: 'panqueca.jpg'}
+    {tipo: 'janta', nome: 'Hamburguer de Cheddar', preco: 24.50, descricao: 'Hamburguer Delicioso', imagem: 'hamburguer.jpg'}
 ]
 
 
@@ -44,6 +44,8 @@ function ChangeMenu(cardapio){
         
 
 }
+
+ChangeMenu(items)
 
 
 

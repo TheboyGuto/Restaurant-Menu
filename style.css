@@ -121,6 +121,7 @@ body{
 }
 .imgproduct{
   height: 100px;
+  width: 200px;
   border-radius: 0.25rem;
   border: 1px solid #ca9d17;
 }
