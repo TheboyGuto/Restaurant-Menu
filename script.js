@@ -40,7 +40,6 @@ function ChangeMenu(cardapio){
         });
         let cardapioModificadoString = cardapioModificado.join('');
         menuDom.innerHTML = cardapioModificadoString;
-        console.log(menuDom.innerHTML)
         
 
 }
